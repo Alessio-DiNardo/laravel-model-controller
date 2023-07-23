@@ -1,9 +1,18 @@
 @extends('layouts.app')
 
-@section('title','Laravel Comics')
+@section('title','Welcome')
 
-@section('main-content')
+@section('main-section')
     <h1>
-        Laravel Comics
+        Welcome
     </h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>
+                    hi
+                </h3>
+            </div>
+        </div>
+    </div>
 @endsection
